@@ -1,0 +1,82 @@
+html {
+    background: url(../mikePortfolio/images/background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.profile_container {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(0, 0, 0, 0.85);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 50%;
+
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 45px;
+
+}
+
+p {
+    font-weight: 120;
+    font-size: 20px;
+}
+
+.line_break {
+    width: 140px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+
+.social_icons {
+    font-size: 30px;
+}
+
+.social_icons a {
+    color: white;
+}
+
+.social_icons a:hover {
+   color: skyblue;
+   opacity: 0.7;
+}
+
+.social_icons a:selection {
+    
+}
+
+/* #background {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  
+  #background img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%; */
